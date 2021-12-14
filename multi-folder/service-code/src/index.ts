@@ -1,0 +1,8 @@
+console.log('I am')
+console.log('using')
+console.log('a nonsense')
+console.log('number')
+console.log('of')
+console.log('console.log()')
+console.log('Do not forget to')
+console.log('Do not use Log4j!')
