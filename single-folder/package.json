@@ -1,0 +1,23 @@
+{
+  "name": "single-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "16.13.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc; node build/src/index.js",
+    "test": "jest --passWithNoTests --runInBand --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.2"
+  }
+}

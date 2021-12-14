@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // single folder
+    {
+      "name": "single folder",
+      "type": "node",
+      "request": "launch",
+      "runtimeVersion": "16.13.0",
+      "args": ["build/src/index.js"],
+      "disableOptimisticBPs": true,
+      "sourceMaps": true
+    }
+  ]
+}
